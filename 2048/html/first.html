@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1024</title>
+  <link rel="stylesheet" href="../css/first.css">
+</head>
+
+<body>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+  <div class="text">1024</div>
+
+  <button onclick="document.getElementById('id01').style.display='block'" id="pu">
+    לכניסה למשחק
+  </button>
+
+  <div id="id01" class="modal">
+    <form class="modal-content animate">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>שם השחקן</b></label>
+        <input type="text" name="first_name" id="first_name" required placeholder="enter name" required>
+        <button onclick="namei()" id="start_but">start game</button>
+
+      </div>
+
+      <div class="container" style="background-color:#fefefe1a">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+          class="cancelbtn">ביטול</button>
+      </div>
+    </form>
+  </div>
+  </div>
+  <button class="miriam_love_u_twic1" onclick="document.getElementById('id011').style.display='block'" id="pu1">
+    הוראות המשחק
+  </button>
+  <div id="id011" class="modal1">
+    <form class="modal-content animate1">
+      <div class="imgcontainer1">
+        <span onclick="document.getElementById('id011').style.display='none'" class="close1"
+          title="Close Modal1">&times;</span>
+      </div>
+
+      <div class="container1">
+        <p>מטרת המשחק:
+          להגיע למשבצת המכילה את המספר 1024
+        </p>
+        <p>מהלך המשחק:
+          הזז בעזרת מקשי החיצים את המשבצות על לוח המשחק
+        </p>
+        <p>בכל הוזזה זזות כל המשבצות לכיוון המבוקש</p>
+        <p>שתי משבצות המכילות ערך זהה הנפגשות בינהם מתאחדות למשבצת אחת המכילה את חיבורם</p>
+      </div>
+
+      <div class="container1" style="background-color:#fefefe1a">
+        <button type="button" onclick="document.getElementById('id011').style.display='none'"
+          class="cancelbtn1">הבנתי</button>
+      </div>
+    </form>
+  </div>
+  </div>
+</body>
+<script src="../script/game_page.js"></script>
+
+</html>

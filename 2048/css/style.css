@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    font-family: fantasy, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
+#big{
+    position: absolute;
+    bottom: 50px;
+    margin-left: 13%;
+    margin-top: 3%;
+    width: 540px;
+    height: 540px;
+    display: flex;
+}
+
+#half{
+    width: 50%;
+    height: 100%;
+}
+
+#small{
+    width: 100%;
+    height: 50%;
+    margin: 5px;
+}
+
+#tiny{
+    width: 100%;
+    height: 50%;    
+    border: 2px;
+    border-style: solid;
+    border-color: rgba(151, 79, 97, 0.644);
+    text-align: center;
+    font-size: 50px;
+    font: 900;
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(67, 70, 66, 0.349);
+}
+
+video{
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+#name_of_man{
+    color: rgba(255, 255, 255, 0.253);
+    position: absolute;
+    top: 110px;
+    right: 70px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    font-size: 40px;
+    text-shadow: tomato 1px 2px 5px ;
+}
+
+#score_of_man{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 280px;
+    right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    width: 20%;
+    font-size: 29px;
+    margin-top: 20px;
+    
+}
+
+button{
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    width: 30%;
+    height: 50px;
+    background-color: #ff80955d;
+    color: white;
+    border: black;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+button:hover {
+    opacity: 0.6;
+  }
+
+  /* #sary_is_smart{
+      display: none;
+  } */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
